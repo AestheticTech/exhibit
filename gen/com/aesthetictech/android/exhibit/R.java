@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.aesthetictech.android.exhibit.a;
+package com.aesthetictech.android.exhibit;
 
 public final class R {
     public static final class attr {
@@ -28,10 +28,16 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int videoView=0x7f080000;
     }
     public static final class layout {
-        public static final int main=0x7f030000;
+        public static final int looper=0x7f030000;
+        public static final int main=0x7f030001;
     }
     public static final class raw {
-        public static final int one=0x7f040000;
+        public static final int a=0x7f040000;
+        public static final int b=0x7f040001;
+        public static final int c=0x7f040002;
+        public static final int d=0x7f040003;
+        public static final int e=0x7f040004;
+        public static final int loop=0x7f040005;
     }
     public static final class string {
         public static final int app_name=0x7f060000;
@@ -76,8 +82,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ButtonBarContainerTheme_buttonBarButtonStyle com.aesthetictech.android.exhibit.a:buttonBarButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ButtonBarContainerTheme_buttonBarStyle com.aesthetictech.android.exhibit.a:buttonBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ButtonBarContainerTheme_buttonBarButtonStyle com.aesthetictech.android.exhibit:buttonBarButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ButtonBarContainerTheme_buttonBarStyle com.aesthetictech.android.exhibit:buttonBarStyle}</code></td><td></td></tr>
            </table>
            @see #ButtonBarContainerTheme_buttonBarButtonStyle
            @see #ButtonBarContainerTheme_buttonBarStyle
@@ -86,7 +92,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010000, 0x7f010001
         };
         /**
-          <p>This symbol is the offset where the {@link com.aesthetictech.android.exhibit.a.R.attr#buttonBarButtonStyle}
+          <p>This symbol is the offset where the {@link com.aesthetictech.android.exhibit.R.attr#buttonBarButtonStyle}
           attribute's value can be found in the {@link #ButtonBarContainerTheme} array.
 
 
@@ -96,7 +102,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ButtonBarContainerTheme_buttonBarButtonStyle = 1;
         /**
-          <p>This symbol is the offset where the {@link com.aesthetictech.android.exhibit.a.R.attr#buttonBarStyle}
+          <p>This symbol is the offset where the {@link com.aesthetictech.android.exhibit.R.attr#buttonBarStyle}
           attribute's value can be found in the {@link #ButtonBarContainerTheme} array.
 
 
